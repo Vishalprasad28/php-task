@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background: linear-gradient(45deg,rgb(64, 112, 52) 5%, rgb(255, 255, 255) 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.error-free{
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(2, 255, 6);
+    box-shadow: 0 0 10px rgb(2, 255, 6);
+}
+.error-free h1{
+    font-size: 4rem;
+}
+.error-free p{
+    font-size: 1.5rem;
+}
+.error-free h1,.error-free p {
+   text-align: center;
+   margin: 1rem;
+   color: white;
+   text-shadow: 0 0 10px rgb(2, 255, 6);
+}
+.error-free button {
+    height: 40px;
+    width: 35%;
+    font-size: 1rem;
+    background-color: rgb(2, 255, 6);
+    color: black;
+    transition: all 500ms ease-in-out;
+}
+.error-free button a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: black;
+    transition: all 500ms ease-in-out;
+
+}
+.error-free button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.error-free button:hover a{
+    color: rgb(255, 255, 255);
+}
+.error-full{
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(255, 2, 2);
+    box-shadow: 0 0 10px rgb(255, 2, 2);
+}
+.error-full h1{
+    font-size: 4rem;
+}
+.error-full p{
+    font-size: 1rem;
+    margin: 2px 0;
+    text-align: left !important;
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 2, 2);
+}
+.error-full h1{
+   text-align: center;
+   margin: 1rem;
+   color: white;
+   text-shadow: 0 0 10px rgb(255, 2, 2);
+}
+.error-full button {
+    height: 40px;
+    width: 35%;
+    font-size: 1rem;
+    background-color: rgb(255, 2, 2);
+    color: black;
+    transition: all 500ms ease-in-out;
+}
+.error-full button a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: black;
+    transition: all 500ms ease-in-out;
+
+}
+.error-full button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.error-full button:hover a{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background: linear-gradient(45deg, rgb(64, 112, 52) 5%, rgb(0, 0, 0) 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+
+.form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 700px;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+    color: white;
+    text-shadow: 0 0 10px rgb(2, 255, 6);
+}
+
+form {
+    background-color: rgb(32, 32, 32);
+    padding: 1rem 0.4rem;
+    border: 1px solid rgb(2, 255, 6);
+    display: inline-block;
+    color: white;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgb(2, 255, 6);
+    width: 35%;
+
+}
+#fname,
+#lname,
+#email,
+#fullname,
+#phone {
+    padding: 0.4rem;
+    /* border: 2px solid grey; */
+    margin: 5px 0;
+    cursor: pointer;
+    outline: transparent;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+label {
+    font-size: 1rem;
+    color: rgb(2, 255, 6);
+    text-shadow: 0 0 4px rgb(2, 255, 6);
+}
+
+.submit_button {
+    padding: 0.5rem 0.6rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+.errored-form-shadow{
+    box-shadow: 0 0 10px rgb(255, 1, 1);
+    border: 1px solid red;
+}
+.error-container{
+    float: right;
+    clear: both;
+}
+.gradient{
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.718) 5%, rgb(0, 0, 0) 90%);
+}
+.error-full {
+    color: rgb(255, 0, 0);
+}
+
+.error-free {
+    color: rgb(0, 255, 0);
+}
+
+.error-full-box {
+    border: 2px solid rgb(255, 0, 0) ;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+#marks{
+    width: 100%;
+    padding: 0.4rem;
+}
+.submit_button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 5px rgb(2, 255, 6);
+}

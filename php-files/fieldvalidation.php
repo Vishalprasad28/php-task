@@ -1,0 +1,9 @@
+<?php
+include("initialvariables.php");
+include("firstname.php");
+include("lastname.php");
+include("email.php");
+include("phone.php");
+include("marksheetvalidation.php");
+include("json_array.php");
+?>

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background: linear-gradient(45deg, rgb(64, 112, 52) 5%, rgb(0, 0, 0) 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.image_container {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #15ff00;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    animation: 500ms ease-in-out fading;
+    box-shadow: 0 0 10px rgb(2, 255, 6);
+    
+}
+
+.image_container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(2, 255, 6);
+    text-align: center;
+    animation: 1000ms ease-in-out fading-sliding; 
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(252, 252, 255);
+    font-weight: bold;
+    animation: 1000ms ease-in-out fading-sliding;
+}
+
+li {
+    list-style: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+li:last-child {
+    list-style: disc;
+    margin-right: 0;
+}
+
+.pic_and_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(2, 255, 6);
+}
+tr:nth-child(2n-1) {
+    color: white;
+}
+th{
+    color: white;
+    text-shadow: 0 0 10px rgb(2, 255, 6);
+
+}
+th,
+td {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.5rem 3rem;
+}
+
+td {
+    border: 2px solid rgb(254, 255, 254);
+}
+.table_head{
+    color:white;
+    text-shadow: 0 0 10px rgb(2, 255, 6);
+
+}
+.pdf-gen-button{
+background: none;
+border: none;
+margin: 2rem;
+}
+.pdf-gen-button a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 0.7rem 1rem;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+
+}
+.pdf-gen-button a:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
