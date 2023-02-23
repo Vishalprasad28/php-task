@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 body {
     background: linear-gradient(45deg, rgb(64, 112, 52) 5%, rgb(0, 0, 0) 90%);
@@ -39,7 +41,7 @@ body {
 }
 h1 {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 300;
     color: #ffffff;
     text-shadow: 0 0 10px rgb(2, 255, 6);
     text-align: center;

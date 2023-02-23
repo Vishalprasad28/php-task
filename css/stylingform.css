@@ -40,7 +40,7 @@ form {
     color: white;
     margin: 0 auto;
     box-shadow: 0 0 10px rgb(2, 255, 6);
-    width: 35%;
+    width:40%;
 
 }
 #fname,
@@ -49,10 +49,10 @@ form {
 #fullname,
 #phone {
     padding: 0.4rem;
-    /* border: 2px solid grey; */
+    /* border-bottom: 2px solid rgb(2, 255, 6); */
     margin: 5px 0;
     cursor: pointer;
-    outline: transparent;
+    outline: none;
     font-size: 1.2rem;
     width: 100%;
 }
@@ -62,9 +62,9 @@ label {
     color: rgb(2, 255, 6);
     text-shadow: 0 0 4px rgb(2, 255, 6);
 }
-
 .submit_button {
     padding: 0.5rem 0.6rem;
+    margin-top: 0.5rem;
     color: rgb(0, 0, 0);
     background-color: rgb(0, 255, 0);
     border: none;

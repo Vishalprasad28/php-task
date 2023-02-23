@@ -1,5 +1,8 @@
 <?php
 session_start();
+if($_SESSION["Loggedin"] == false)
+header("Refresh:0;url=index.php");
+else {
 require_once("person.php");
 //initializing the variables with the session values brought from the previous page
 $person = unserialize($_SESSION["person_details"]);
@@ -52,5 +55,6 @@ $filename = date("dmY")."-".date("h:ia").".pdf";
 //outputting the pdf file in browser and also storing in the server
 $pdf->Output('F',"../pdf-docs/".$filename);
 $pdf->Output('I',$filename);
-
+session_destroy();
+}
 ?>
